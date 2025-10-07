@@ -1,0 +1,31 @@
+#primary {
+    padding-block: 20px;
+    color: var(--text-color-primary);
+
+    /* nesting */
+    div:nth-child(2) {
+        margin-inline: auto;
+    }
+
+    div:nth-child(3) {
+        justify-self: end;
+    }
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#secondary {
+    border-block: 1px solid var(--stroke-color);
+    padding-inline: 32px;
+    padding-block: 14px;
+
+    font: var(--text-span);
+    color: var(--text-color-secondary);
+
+    justify-content: space-between;
+}
