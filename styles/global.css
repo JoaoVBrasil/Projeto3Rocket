@@ -39,12 +39,14 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font: inherit;
 }
 
 
-img{
+img {
     max-width: 100%;
 
 }
@@ -55,6 +57,7 @@ img{
     margin-inline: auto;
 }
 
-main{
+main {
     margin-top: 40px;
+    gap: 80px;
 }
